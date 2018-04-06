@@ -1,0 +1,6 @@
+C:\Users\George II\Desktop\VS test projects\ZooProject\ZooProject\bin\Debug\ZooProject.exe.config
+C:\Users\George II\Desktop\VS test projects\ZooProject\ZooProject\obj\Debug\ZooProject.csprojResolveAssemblyReference.cache
+C:\Users\George II\Desktop\VS test projects\ZooProject\ZooProject\bin\Debug\ZooProject.exe
+C:\Users\George II\Desktop\VS test projects\ZooProject\ZooProject\bin\Debug\ZooProject.pdb
+C:\Users\George II\Desktop\VS test projects\ZooProject\ZooProject\obj\Debug\ZooProject.exe
+C:\Users\George II\Desktop\VS test projects\ZooProject\ZooProject\obj\Debug\ZooProject.pdb
