@@ -8,13 +8,14 @@ namespace ZooProject
 {
     class Mammal : Animal
     {
-        protected int tailLength { get; set; }
-        public int childrenInWomb { get; set; }
+        protected int TailLength { get; set; }
+        public int ChildrenInWomb { get; set; }
 
-        public Mammal(bool a, int c, int w, int t, int ch)
+        public Mammal(bool Alive, int CageNr, int Weight, int tailLength, int ChildrenNr)
+            :base(Alive, CageNr, Weight)
         {
-            tailLength = t;
-            childrenInWomb = ch;
+            TailLength = tailLength;
+            ChildrenInWomb = ChildrenInWomb;
         }
 
         public virtual string GiveBirthToBaby()

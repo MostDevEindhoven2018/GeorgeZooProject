@@ -8,22 +8,22 @@ namespace ZooProject
 {
     public class Animal
     {
-        public bool alive { get; set; }
-        public int cageNr { get; set; }
-        public int weight { get; set; }
-        public int remainingFood { get; set; }
+        protected bool Alive { get; set; }
+        public int CageNr { get; set; }
+        public int Weight { get; set; }
+        public int RemainingFood { get; set; }
 
         public Animal()
         {
 
         }
 
-        public Animal(bool a, int c, int w)
+        public Animal(bool alive, int cageNr, int weight)
         {
-            alive = a;
-            cageNr = c;
-            weight = w;
-            remainingFood = 10;
+            Alive = alive;
+            CageNr = cageNr;
+            Weight = weight;
+            RemainingFood = 2;
         }
         
         public virtual string MakeSound()
@@ -33,7 +33,7 @@ namespace ZooProject
 
         protected bool Eat()
         {
-            if (remainingFood > 0)
+            if (RemainingFood > 0)
                 return true;
             else
                 return false;
